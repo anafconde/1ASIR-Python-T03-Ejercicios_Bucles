@@ -22,7 +22,7 @@ for t in range(1, num_trabajadores + 1):
     print(f"Trabajador {t}")
     
     dias = int(input("Introduce los días trabajados: "))
-    pago_hora = float(input("Introduce el pago por hora: "))
+    pago_hora = int(input("Introduce el pago por hora: "))
     
     for d in range(1, dias + 1):
         horas = int(input(f"Horas trabajadas el día {d}: "))
