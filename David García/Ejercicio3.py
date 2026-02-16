@@ -19,9 +19,9 @@ if num == 0:
     exit
 else:
     while num != 0:
-        num = int(input("Introduce otro número: "))
         cont = cont + 1
         suma = suma + num
+        num = int(input("Introduce otro número: "))
         media = suma / cont
     print(f"La suma de los números introducidos es {suma} y la media es {media}")
 
