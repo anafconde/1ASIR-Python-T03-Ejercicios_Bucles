@@ -13,7 +13,7 @@ print()
 
 num = int(input("Introduce un número: "))
 
-for n in range(10):
+for n in range(11):
     print(num, "x", n, "=", num * n)
 
 print()
